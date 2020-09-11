@@ -1,0 +1,430 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cryptography",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Admin\\.conda\\pkgs\\pymysql-0.9.3-py37_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/INSTALLER",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/LICENSE",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/METADATA",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/RECORD",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/WHEEL",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/pbr.json",
+    "Lib/site-packages/PyMySQL-0.9.3.dist-info/top_level.txt",
+    "Lib/site-packages/pymysql/__init__.py",
+    "Lib/site-packages/pymysql/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/_auth.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/_compat.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/_socketio.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/charset.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/connections.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/converters.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/cursors.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/err.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/optionfile.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/protocol.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/times.cpython-37.pyc",
+    "Lib/site-packages/pymysql/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pymysql/_auth.py",
+    "Lib/site-packages/pymysql/_compat.py",
+    "Lib/site-packages/pymysql/_socketio.py",
+    "Lib/site-packages/pymysql/charset.py",
+    "Lib/site-packages/pymysql/connections.py",
+    "Lib/site-packages/pymysql/constants/CLIENT.py",
+    "Lib/site-packages/pymysql/constants/COMMAND.py",
+    "Lib/site-packages/pymysql/constants/CR.py",
+    "Lib/site-packages/pymysql/constants/ER.py",
+    "Lib/site-packages/pymysql/constants/FIELD_TYPE.py",
+    "Lib/site-packages/pymysql/constants/FLAG.py",
+    "Lib/site-packages/pymysql/constants/SERVER_STATUS.py",
+    "Lib/site-packages/pymysql/constants/__init__.py",
+    "Lib/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/CR.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/ER.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/FLAG.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-37.pyc",
+    "Lib/site-packages/pymysql/constants/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pymysql/converters.py",
+    "Lib/site-packages/pymysql/cursors.py",
+    "Lib/site-packages/pymysql/err.py",
+    "Lib/site-packages/pymysql/optionfile.py",
+    "Lib/site-packages/pymysql/protocol.py",
+    "Lib/site-packages/pymysql/times.py",
+    "Lib/site-packages/pymysql/util.py"
+  ],
+  "fn": "pymysql-0.9.3-py37_0.conda",
+  "legacy_bz2_md5": "e3d13815b5c386ffc5250bef8a0a9df1",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\Admin\\.conda\\pkgs\\pymysql-0.9.3-py37_0",
+    "type": 1
+  },
+  "md5": "c96663de7b2fba024e85dea36849a690",
+  "name": "pymysql",
+  "package_tarball_full_path": "C:\\Users\\Admin\\.conda\\pkgs\\pymysql-0.9.3-py37_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "314120dc65f0800f738a4b31400c76ee14decd1fbe77ce9c3540a421b86ea7b6",
+        "sha256_in_prefix": "314120dc65f0800f738a4b31400c76ee14decd1fbe77ce9c3540a421b86ea7b6",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f3f4753771ff026a54bbbd9cb6e890548d4f93648c95bf6ccb5b86967c570785",
+        "sha256_in_prefix": "f3f4753771ff026a54bbbd9cb6e890548d4f93648c95bf6ccb5b86967c570785",
+        "size_in_bytes": 5212
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8743d9cf80cab21d3239156249482fb8d7a7426581c95bc5efed7d47f87b5fe4",
+        "sha256_in_prefix": "8743d9cf80cab21d3239156249482fb8d7a7426581c95bc5efed7d47f87b5fe4",
+        "size_in_bytes": 3281
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "68489635341c1ba02218601843da874e27f22919e6149bc379323484fe5aa216",
+        "sha256_in_prefix": "68489635341c1ba02218601843da874e27f22919e6149bc379323484fe5aa216",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "2eabe1f3ef4deea4ba48b525109e460cb5a2a1072f47d9f55968cc11f2799aff",
+        "sha256_in_prefix": "2eabe1f3ef4deea4ba48b525109e460cb5a2a1072f47d9f55968cc11f2799aff",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "Lib/site-packages/PyMySQL-0.9.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "20a955f9fe28f74b0e76731de8706fa349769ea7c938653393065e684106b918",
+        "sha256_in_prefix": "20a955f9fe28f74b0e76731de8706fa349769ea7c938653393065e684106b918",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "112965559568315909d30f45a1a30c8ab8c56d635ceb09871151f318a10179f7",
+        "sha256_in_prefix": "112965559568315909d30f45a1a30c8ab8c56d635ceb09871151f318a10179f7",
+        "size_in_bytes": 4732
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecd7dd369a00ee018300861a17f052cab4bbae3b6c7f78ce9552452318cf9d53",
+        "sha256_in_prefix": "ecd7dd369a00ee018300861a17f052cab4bbae3b6c7f78ce9552452318cf9d53",
+        "size_in_bytes": 4595
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/_auth.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fef255c6927f8dd145746af86a95cec9667f19cc515afba73076d668086beff4",
+        "sha256_in_prefix": "fef255c6927f8dd145746af86a95cec9667f19cc515afba73076d668086beff4",
+        "size_in_bytes": 6380
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a608a60a06f7d7eccfdf94ad09674fa7a64c7e1f8407106736490ca6c1fe369b",
+        "sha256_in_prefix": "a608a60a06f7d7eccfdf94ad09674fa7a64c7e1f8407106736490ca6c1fe369b",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/_socketio.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b270576bd93a1e9a12a54daa5d1956286fa3808a292671c28019cc64891db33",
+        "sha256_in_prefix": "3b270576bd93a1e9a12a54daa5d1956286fa3808a292671c28019cc64891db33",
+        "size_in_bytes": 3953
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/charset.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78b5e7c5267ea043bbad82e8e1b74f1eb52559e62078083d093346b5057a2289",
+        "sha256_in_prefix": "78b5e7c5267ea043bbad82e8e1b74f1eb52559e62078083d093346b5057a2289",
+        "size_in_bytes": 8741
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/connections.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c67b467a9c74a732b2af977ab8e000764c287cb2b41234f0f5d94504aad5cb81",
+        "sha256_in_prefix": "c67b467a9c74a732b2af977ab8e000764c287cb2b41234f0f5d94504aad5cb81",
+        "size_in_bytes": 34032
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/converters.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5eda82427e300f6a863f29fd13abfc9ac8c6629af100c5b363bd9f04ae990eda",
+        "sha256_in_prefix": "5eda82427e300f6a863f29fd13abfc9ac8c6629af100c5b363bd9f04ae990eda",
+        "size_in_bytes": 11777
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/cursors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b8e25c6a2f88f367d9f7cb98ca25c647de393f58df6dc6f96b4bf125a795cee",
+        "sha256_in_prefix": "5b8e25c6a2f88f367d9f7cb98ca25c647de393f58df6dc6f96b4bf125a795cee",
+        "size_in_bytes": 16529
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/err.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e09f38fafa02e8685b389b9ed2450670e67885ab57218aec5f7312443183eecc",
+        "sha256_in_prefix": "e09f38fafa02e8685b389b9ed2450670e67885ab57218aec5f7312443183eecc",
+        "size_in_bytes": 4847
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/optionfile.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1dd840588a4618c99afbd9c870370a078f898205a41f23f7c91beb46abed012f",
+        "sha256_in_prefix": "1dd840588a4618c99afbd9c870370a078f898205a41f23f7c91beb46abed012f",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/protocol.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "905ff23226c4ddeb4fba64b98c9389138693ef19973e0df025e07fa85f6f7778",
+        "sha256_in_prefix": "905ff23226c4ddeb4fba64b98c9389138693ef19973e0df025e07fa85f6f7778",
+        "size_in_bytes": 13068
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/times.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f074034c92ea2302a20549c4180abd11466f2505f62fa132ea69ed308ac1403",
+        "sha256_in_prefix": "0f074034c92ea2302a20549c4180abd11466f2505f62fa132ea69ed308ac1403",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f387f4d50a628ae95146ba01e15755588db44cadd0214c1bc76eb373b46b1a0e",
+        "sha256_in_prefix": "f387f4d50a628ae95146ba01e15755588db44cadd0214c1bc76eb373b46b1a0e",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/_auth.py",
+        "path_type": "hardlink",
+        "sha256": "5f6022b9ebee0da0f62f8c093b927baf29af249666ea6343ed66267886fbc049",
+        "sha256_in_prefix": "5f6022b9ebee0da0f62f8c093b927baf29af249666ea6343ed66267886fbc049",
+        "size_in_bytes": 7720
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "0d2c4c57689bfab848b9020a8975f8e3276cff46cdd8cfd175d7d842249d07a5",
+        "sha256_in_prefix": "0d2c4c57689bfab848b9020a8975f8e3276cff46cdd8cfd175d7d842249d07a5",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/_socketio.py",
+        "path_type": "hardlink",
+        "sha256": "b26b30e30b9d34ce022a5f39ba2b3c4077e30e1cf6897411be5f105784e6075c",
+        "sha256_in_prefix": "b26b30e30b9d34ce022a5f39ba2b3c4077e30e1cf6897411be5f105784e6075c",
+        "size_in_bytes": 4049
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/charset.py",
+        "path_type": "hardlink",
+        "sha256": "b4d78492ecc55cce737ae3989bf5d233ccddb793ffa5a5764b2501f41da26ea2",
+        "sha256_in_prefix": "b4d78492ecc55cce737ae3989bf5d233ccddb793ffa5a5764b2501f41da26ea2",
+        "size_in_bytes": 10330
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/connections.py",
+        "path_type": "hardlink",
+        "sha256": "f7c0c7c4dfa1dedba9181211791f7c13b2d24d1efe388621dedba55c694676f7",
+        "sha256_in_prefix": "f7c0c7c4dfa1dedba9181211791f7c13b2d24d1efe388621dedba55c694676f7",
+        "size_in_bytes": 49041
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/CLIENT.py",
+        "path_type": "hardlink",
+        "sha256": "70f3319d041b046eb1a9a103c2ace08137d622e250d4ecbb1eb220c3fbe0a68e",
+        "sha256_in_prefix": "70f3319d041b046eb1a9a103c2ace08137d622e250d4ecbb1eb220c3fbe0a68e",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/COMMAND.py",
+        "path_type": "hardlink",
+        "sha256": "ca919d1149a2f26f5c741677ac353a99bedbb08caef657420ef738a4d17b57bd",
+        "sha256_in_prefix": "ca919d1149a2f26f5c741677ac353a99bedbb08caef657420ef738a4d17b57bd",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/CR.py",
+        "path_type": "hardlink",
+        "sha256": "e688d591b8accb0ed0a3f7133699c762f57ac474595cadfd42abfcb6319b21b8",
+        "sha256_in_prefix": "e688d591b8accb0ed0a3f7133699c762f57ac474595cadfd42abfcb6319b21b8",
+        "size_in_bytes": 2228
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/ER.py",
+        "path_type": "hardlink",
+        "sha256": "f2ad4f64ec5ecdb5db45a3d9ac7ad079bc8b0f1e02bc0524040ac9f7106e5b46",
+        "sha256_in_prefix": "f2ad4f64ec5ecdb5db45a3d9ac7ad079bc8b0f1e02bc0524040ac9f7106e5b46",
+        "size_in_bytes": 12297
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/FIELD_TYPE.py",
+        "path_type": "hardlink",
+        "sha256": "c8764b4b241ec0cc530f1e0f2eb2351ff8b01f6167b2b8016456b9e941b61e24",
+        "sha256_in_prefix": "c8764b4b241ec0cc530f1e0f2eb2351ff8b01f6167b2b8016456b9e941b61e24",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/FLAG.py",
+        "path_type": "hardlink",
+        "sha256": "172f8fac22e7508edfc7fa395b2a589d403358033413d779c8bf1f15154a7df6",
+        "sha256_in_prefix": "172f8fac22e7508edfc7fa395b2a589d403358033413d779c8bf1f15154a7df6",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/SERVER_STATUS.py",
+        "path_type": "hardlink",
+        "sha256": "2a881508ead5f92e5a005c3254a78a82e6b5de7c1db75585c876a08c265b7293",
+        "sha256_in_prefix": "2a881508ead5f92e5a005c3254a78a82e6b5de7c1db75585c876a08c265b7293",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe90bb7de1e74ab2568ef8483837dbc10e72bc0ffed1935043d3881fe7d00efc",
+        "sha256_in_prefix": "fe90bb7de1e74ab2568ef8483837dbc10e72bc0ffed1935043d3881fe7d00efc",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd554f56f9f9e7bb969833d6d2619df215740bcff86eb07e5e20c42e7dd00553",
+        "sha256_in_prefix": "dd554f56f9f9e7bb969833d6d2619df215740bcff86eb07e5e20c42e7dd00553",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/CR.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "62c23a188c92acc8ad0cae04dd0888ec5ca9eba1b60ca74e369b7b3f95b96e53",
+        "sha256_in_prefix": "62c23a188c92acc8ad0cae04dd0888ec5ca9eba1b60ca74e369b7b3f95b96e53",
+        "size_in_bytes": 2332
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/ER.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1031190745824c44b600e7ad80a487ba9544278438e3599ef68216da743be985",
+        "sha256_in_prefix": "1031190745824c44b600e7ad80a487ba9544278438e3599ef68216da743be985",
+        "size_in_bytes": 15590
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed1fdaadf1a0c9ac94be9d6fe80b8bd34ff34c0148fc7eb0d0d28ac404b5fcd3",
+        "sha256_in_prefix": "ed1fdaadf1a0c9ac94be9d6fe80b8bd34ff34c0148fc7eb0d0d28ac404b5fcd3",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/FLAG.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbb09942af2a8d4c506b5eb4acd51e27ca4dd3f9e4a6de90a0cc6f75f8d281c7",
+        "sha256_in_prefix": "bbb09942af2a8d4c506b5eb4acd51e27ca4dd3f9e4a6de90a0cc6f75f8d281c7",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "954357d842058b3b42f575928db7983397e48ab957798d2b79f5fbc78137f09b",
+        "sha256_in_prefix": "954357d842058b3b42f575928db7983397e48ab957798d2b79f5fbc78137f09b",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/constants/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb8260618d67fb6e76f97fd79fcb2421c1bdf6072a0122cf9af18caec92ff38",
+        "sha256_in_prefix": "1bb8260618d67fb6e76f97fd79fcb2421c1bdf6072a0122cf9af18caec92ff38",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/converters.py",
+        "path_type": "hardlink",
+        "sha256": "0561cc6eab8d15429f157c9987a430721ea660bc9849079a7a27cbe152ee2127",
+        "sha256_in_prefix": "0561cc6eab8d15429f157c9987a430721ea660bc9849079a7a27cbe152ee2127",
+        "size_in_bytes": 12235
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/cursors.py",
+        "path_type": "hardlink",
+        "sha256": "9ba321c169e6dc26d31382405f30eea3a098282ed6e89cec6383cdf5e0e62899",
+        "sha256_in_prefix": "9ba321c169e6dc26d31382405f30eea3a098282ed6e89cec6383cdf5e0e62899",
+        "size_in_bytes": 17238
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/err.py",
+        "path_type": "hardlink",
+        "sha256": "3da5c62ea3a70d72687988cb6cc650139510dcc1c5aa28870b36833cffbf3490",
+        "sha256_in_prefix": "3da5c62ea3a70d72687988cb6cc650139510dcc1c5aa28870b36833cffbf3490",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/optionfile.py",
+        "path_type": "hardlink",
+        "sha256": "e325bc03b68047602295dee26cb382cc895309c61df743ed47c2d1189499b3ca",
+        "sha256_in_prefix": "e325bc03b68047602295dee26cb382cc895309c61df743ed47c2d1189499b3ca",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "187db2cc6a8fc2a5f6b761bcee4dc4250b7b6d840e2c437a42837f9b5e5ce009",
+        "sha256_in_prefix": "187db2cc6a8fc2a5f6b761bcee4dc4250b7b6d840e2c437a42837f9b5e5ce009",
+        "size_in_bytes": 12024
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/times.py",
+        "path_type": "hardlink",
+        "sha256": "fea5e00da630b079edbe920a48a5e9d6bad8220b6ae99f692f22e73b65cda0bd",
+        "sha256_in_prefix": "fea5e00da630b079edbe920a48a5e9d6bad8220b6ae99f692f22e73b65cda0bd",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "Lib/site-packages/pymysql/util.py",
+        "path_type": "hardlink",
+        "sha256": "8ca3edb3c70e3085c39dd8ec577efcdd55be8aaf6e3311135aa7c73fa05df99a",
+        "sha256_in_prefix": "8ca3edb3c70e3085c39dd8ec577efcdd55be8aaf6e3311135aa7c73fa05df99a",
+        "size_in_bytes": 180
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pymysql",
+  "sha256": "c908e3ef6f14a4053ad78f450ee0232f97df77ef29bbc2f39afbef6fb1ed6141",
+  "size": 85456,
+  "subdir": "win-64",
+  "timestamp": 1547249225806,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pymysql-0.9.3-py37_0.conda",
+  "version": "0.9.3"
+}

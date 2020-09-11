@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" metaset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/gallery.css">
+<style>
+li{
+    font-size:10px;
+}
+ul li{
+    list-style-type: none;
+}
+.pagination{
+	width: 100%;
+
+
+}
+.pagination div{
+	display: inline-block;
+	margin:0 10px;
+    text-align: center;
+
+}
+.pagination .page{
+	color:gray;
+}
+.pagination .prev,.pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+.pagination .prev.disabled,.pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+</style>
+<script>
+    function  loadImage() {
+    const prev = document.querySelector(".prev");
+    const next = document.querySelector(".next");
+    const page = document.querySelector(".page-num");
+    const maxItem =9;
+    let index = 1;
+    const galleryItems = document.querySelector(".Gallery").children;
+    const pagination = Math.ceil(galleryItems.length / maxItem)
+
+
+    prev.addEventListener("click", function () {
+        index--;
+        check();
+        showItems();
+    })
+    next.addEventListener("click", function () {
+        index++;
+        check();
+        showItems();
+    })
+
+    function check() {
+        if (index == pagination) {
+            next.classList.add("disabled");
+        } else {
+            next.classList.remove("disabled");
+        }
+
+        if (index == 1) {
+            prev.classList.add("disabled");
+        } else {
+            prev.classList.remove("disabled");
+        }
+    }
+
+    function showItems() {
+        for (let i = 0; i < galleryItems.length; i++) {
+            galleryItems[i].classList.remove("show");
+            galleryItems[i].classList.add("hide");
+
+
+            if (i >= (index * maxItem) - maxItem && i < index * maxItem) {
+                // if i greater than and equal to (index*maxItem)-maxItem;
+                // means  (1*8)-8=0 if index=2 then (2*8)-8=8
+                galleryItems[i].classList.remove("hide");
+                galleryItems[i].classList.add("show");
+            }
+            page.innerHTML = index;
+        }
+
+
+    }
+}
+  window.onload=function(){
+    loadImage();
+  	showItems();
+  	check();
+  }
+
+
+
+
+//     document.addEventListener("DOMContentLoaded", function() {
+//   var lazyloadImages;
+//
+//   if ("IntersectionObserver" in window) {
+//     lazyloadImages = document.querySelectorAll("#img-div");
+//     var imageObserver = new IntersectionObserver(function(entries, observer) {
+//       entries.forEach(function(entry) {
+//         if (entry.isIntersecting) {
+//           var image = entry.target;
+//           image.src = image.dataset.src;
+//           image.classList.remove("img-div");
+//           imageObserver.unobserve(image);
+//         }
+//       });
+//     });
+//
+//     lazyloadImages.forEach(function(image) {
+//       imageObserver.observe(image);
+//     });
+//   } else {
+//     var lazyloadThrottleTimeout;
+//     lazyloadImages = document.querySelectorAll("#img-div");
+//
+//     function lazyload () {
+//       if(lazyloadThrottleTimeout) {
+//         clearTimeout(lazyloadThrottleTimeout);
+//       }
+//
+//       lazyloadThrottleTimeout = setTimeout(function() {
+//         var scrollTop = window.pageYOffset;
+//         lazyloadImages.forEach(function(img) {
+//             if(img.offsetTop < (window.innerHeight + scrollTop)) {
+//               img.src = img.dataset.src;
+//               img.classList.remove('lazy');
+//             }
+//         });
+//         if(lazyloadImages.length == 0) {
+//           document.removeEventListener("scroll", lazyload);
+//           window.removeEventListener("resize", lazyload);
+//           window.removeEventListener("orientationChange", lazyload);
+//         }
+//       }, 20);
+//     }
+//
+//     document.addEventListener("scroll", lazyload);
+//     window.addEventListener("resize", lazyload);
+//     window.addEventListener("orientationChange", lazyload);
+//   }
+// })
+
+</script>
+</head>
+
+<body onload="loadImage()">
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">X-ray Image Gallery</h1>
+        </div>
+        <div class="Gallery">
+        {% for image_name in image_names %}
+        <div id="img-div" class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img id="{{image_name}} " style="height: 215px; width: 264px; margin-bottom: 3px;" class="img-responsive"  src=" {{url_for('send_image', filename=image_name)}}" onClick="showImageInfo(image_name)">
+        </div>
+        {% endfor %}
+        </div>
+
+
+        <div id="myModal" class="modal" >
+
+
+        </div>
+        <section>
+        <div class="pagination">
+            <div class="prev">Prev</div>
+            <div class="page">Page<span class="page-num"></span></div>
+            <div class="next">Next</div>
+        </div>
+        </section>
+
+</div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous">
+
+</script>
+<script type="text/javascript">
+            var modal = document.getElementById("myModal");
+
+            const showImageInfo = (image_name) => {
+                var modal = document.getElementById("myModal")
+            }
+            const showImage = (image) => {
+                // Get the modal
+                // Get the image and insert it inside the modal - use its "alt" text as a caption
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+
+                  modal.style.display = "block";
+                  modalImg.src = image.src;           // source to input image
+                  // captionText.innerHTML = captionText.innerHTML  ; // using for title of the images
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When  user clicks on <span> (x), close the modal
+                span.onclick = function(event){
+                  modal.style.display = "none";
+
+                }
+                getIDimage();
+
+            }
+             document.onkeydown = function(evt) {
+                    evt = evt || window.event;
+                if (evt.keyCode == 27) {
+
+                    modal.style.display="none";
+                }
+             };
+
+            function getIDimage(){
+                var fullPath = document.getElementById("img01").src;
+                var filename = fullPath.split("/").pop();
+                    document.getElementById("caption").value = filename;
+
+                return filename
+            }
+
+    </script>
+
+
+</body>
+</html>
