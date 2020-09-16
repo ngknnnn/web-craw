@@ -1,12 +1,12 @@
 {
   "build": "he774522_1",
   "build_number": 1,
-  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
   "constrains": [],
   "depends": [
     "ca-certificates",
     "vc >=14.1,<15.0a0",
-    "vs2015_runtime >=14.16.27012,<15.0a0"
+    "vs2015_runtime >=14.16.27012"
   ],
   "extracted_package_dir": "C:\\Users\\Admin\\.conda\\pkgs\\openssl-1.1.1g-he774522_1",
   "features": "",
@@ -18,6 +18,8 @@
     "Library/bin/libssl-1_1-x64.pdb",
     "Library/bin/openssl.exe",
     "Library/bin/openssl.pdb",
+    "Library/ct_log_list.cnf",
+    "Library/ct_log_list.cnf.dist",
     "Library/include/openssl/__DECC_INCLUDE_EPILOGUE.H",
     "Library/include/openssl/__DECC_INCLUDE_PROLOGUE.H",
     "Library/include/openssl/aes.h",
@@ -131,22 +133,19 @@
     "Library/lib/engines-1_1/padlock.pdb",
     "Library/lib/libcrypto.lib",
     "Library/lib/libssl.lib",
-    "Library/ssl/ct_log_list.cnf",
-    "Library/ssl/ct_log_list.cnf.dist",
-    "Library/ssl/misc/CA.pl",
-    "Library/ssl/misc/tsget.pl",
-    "Library/ssl/openssl.cnf",
-    "Library/ssl/openssl.cnf.dist"
+    "Library/misc/CA.pl",
+    "Library/misc/tsget.pl",
+    "Library/openssl.cnf",
+    "Library/openssl.cnf.dist"
   ],
-  "fn": "openssl-1.1.1g-he774522_1.conda",
-  "legacy_bz2_md5": "4752973b7915855f781e221f66f01456",
+  "fn": "openssl-1.1.1g-he774522_1.tar.bz2",
   "license": "OpenSSL",
   "license_family": "Apache",
   "link": {
     "source": "C:\\Users\\Admin\\.conda\\pkgs\\openssl-1.1.1g-he774522_1",
     "type": 1
   },
-  "md5": "870e093f00bbeb42e1713079721c4a0f",
+  "md5": "68c579bdc9f74f5b41b3155ea0b9bc8a",
   "name": "openssl",
   "package_tarball_full_path": "C:\\Users\\Admin\\.conda\\pkgs\\openssl-1.1.1g-he774522_1.conda",
   "paths_data": {
@@ -155,60 +154,74 @@
         "_path": "Library/bin/c_rehash.pl",
         "file_mode": "text",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\\\ci\\\\openssl_1597323868716\\\\_h_env",
-        "sha256": "b2f5185599d9963866c0a69089c4dc419a715ddd10f87b1458d51972e73afa64",
-        "sha256_in_prefix": "31d0f7ec167c7210788b37f7ee5f07290ef0ffdd857841d6bbffd589cc4e856e",
-        "size_in_bytes": 6528
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "80dc1862b253dca4065017f32d5e0ea7c895fb385fa845485c394750cf303c0d",
+        "sha256_in_prefix": "b291f6fca142be97b8cb46fdd783e4b294690184d5ce7d7c97e66c5237889bd0",
+        "size_in_bytes": 6559
       },
       {
         "_path": "Library/bin/libcrypto-1_1-x64.dll",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\ci\\openssl_1597323868716\\_h_env",
-        "sha256": "0854b75974efbd0e2966142a34b1c270b8916504af5dd85227456103604fbddd",
-        "sha256_in_prefix": "0854b75974efbd0e2966142a34b1c270b8916504af5dd85227456103604fbddd",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "693ed53b6ec8d9345b0cf1cf30febd65528afe23c24cba11c601253c565eadf9",
+        "sha256_in_prefix": "693ed53b6ec8d9345b0cf1cf30febd65528afe23c24cba11c601253c565eadf9",
         "size_in_bytes": 3404800
       },
       {
         "_path": "Library/bin/libcrypto-1_1-x64.pdb",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\\\ci\\\\openssl_1597323868716\\\\_h_env",
-        "sha256": "ccb6236cdde409efb8df3aee71cc27653ef90670f4384d1ec41014c8c0203689",
-        "sha256_in_prefix": "ccb6236cdde409efb8df3aee71cc27653ef90670f4384d1ec41014c8c0203689",
-        "size_in_bytes": 10113024
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "fbc93ce36813386bf14f5535e89d857a5e1bb87f734034c9adaf37d41d810b95",
+        "sha256_in_prefix": "fbc93ce36813386bf14f5535e89d857a5e1bb87f734034c9adaf37d41d810b95",
+        "size_in_bytes": 10137600
       },
       {
         "_path": "Library/bin/libssl-1_1-x64.dll",
         "path_type": "hardlink",
-        "sha256": "f4d981a4b00c1a1f98b5aacfd55cd987b8d37b6b37e9a99d4b469ad14c521daa",
-        "sha256_in_prefix": "f4d981a4b00c1a1f98b5aacfd55cd987b8d37b6b37e9a99d4b469ad14c521daa",
+        "sha256": "f3eb6daf442f1336812541482888596e8e882d964c945a2186da6f84b5b76e15",
+        "sha256_in_prefix": "f3eb6daf442f1336812541482888596e8e882d964c945a2186da6f84b5b76e15",
         "size_in_bytes": 682496
       },
       {
         "_path": "Library/bin/libssl-1_1-x64.pdb",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\\\ci\\\\openssl_1597323868716\\\\_h_env",
-        "sha256": "13b6c9df6858406d74eed52fdf0c168f0015639976f7fa0fc583671e2c136298",
-        "sha256_in_prefix": "13b6c9df6858406d74eed52fdf0c168f0015639976f7fa0fc583671e2c136298",
-        "size_in_bytes": 2330624
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "20bf9bbc3f5c369dc66ef4c93010f688d9f811710a3a0e3875f7b99ba338f963",
+        "sha256_in_prefix": "20bf9bbc3f5c369dc66ef4c93010f688d9f811710a3a0e3875f7b99ba338f963",
+        "size_in_bytes": 2338816
       },
       {
         "_path": "Library/bin/openssl.exe",
         "path_type": "hardlink",
-        "sha256": "af0405b51ec09fce9b00afc6aa771af3ea1400a799d3c0e547a8accbbf968f8b",
-        "sha256_in_prefix": "af0405b51ec09fce9b00afc6aa771af3ea1400a799d3c0e547a8accbbf968f8b",
+        "sha256": "5ac7da447f6149ab08b530e14d6ee88f84b6dfc06f9be88e477992b998335778",
+        "sha256_in_prefix": "5ac7da447f6149ab08b530e14d6ee88f84b6dfc06f9be88e477992b998335778",
         "size_in_bytes": 543744
       },
       {
         "_path": "Library/bin/openssl.pdb",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\\\ci\\\\openssl_1597323868716\\\\_h_env",
-        "sha256": "816d2e0696eb242ecf25931338d8fe95aff055b14e212f444cb9c68104efc272",
-        "sha256_in_prefix": "816d2e0696eb242ecf25931338d8fe95aff055b14e212f444cb9c68104efc272",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "cde58e7a2b2a25bf435c81538bf29b53e8c28a6e4b688c7468590afd3b755bb3",
+        "sha256_in_prefix": "cde58e7a2b2a25bf435c81538bf29b53e8c28a6e4b688c7468590afd3b755bb3",
         "size_in_bytes": 2535424
+      },
+      {
+        "_path": "Library/ct_log_list.cnf",
+        "path_type": "hardlink",
+        "sha256": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
+        "sha256_in_prefix": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "Library/ct_log_list.cnf.dist",
+        "path_type": "hardlink",
+        "sha256": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
+        "sha256_in_prefix": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
+        "size_in_bytes": 412
       },
       {
         "_path": "Library/include/openssl/__DECC_INCLUDE_EPILOGUE.H",
@@ -962,90 +975,76 @@
       {
         "_path": "Library/lib/engines-1_1/capi.dll",
         "path_type": "hardlink",
-        "sha256": "c92a6052489add8dfa5d8edd993de44d2df427ea6ee3c427dffaa7fcc85c924e",
-        "sha256_in_prefix": "c92a6052489add8dfa5d8edd993de44d2df427ea6ee3c427dffaa7fcc85c924e",
+        "sha256": "42a188b40c1a5a73c8e3c332c5ad488b957d4fe3f806acea57ec06c6099ecfe3",
+        "sha256_in_prefix": "42a188b40c1a5a73c8e3c332c5ad488b957d4fe3f806acea57ec06c6099ecfe3",
         "size_in_bytes": 69120
       },
       {
         "_path": "Library/lib/engines-1_1/capi.pdb",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\ci\\openssl_1597323868716\\_h_env",
-        "sha256": "7dc334f414f21009277de4d54718fe9e7a3676e9f7a997489f02e3113a23605f",
-        "sha256_in_prefix": "7dc334f414f21009277de4d54718fe9e7a3676e9f7a997489f02e3113a23605f",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "3b0b999d07c88069108d2392bc23e1687d86712e507a0a14a4b92d567ef59d1a",
+        "sha256_in_prefix": "3b0b999d07c88069108d2392bc23e1687d86712e507a0a14a4b92d567ef59d1a",
         "size_in_bytes": 528384
       },
       {
         "_path": "Library/lib/engines-1_1/padlock.dll",
         "path_type": "hardlink",
-        "sha256": "547e8feb3f44b6f4ea68ab290b1bd504ddf2c7f87cda2d55df673bf727e38a4b",
-        "sha256_in_prefix": "547e8feb3f44b6f4ea68ab290b1bd504ddf2c7f87cda2d55df673bf727e38a4b",
+        "sha256": "6b2a88fc74f510cb0de027d90780386c3a2cf1674a106cc0dbf76912d8db8767",
+        "sha256_in_prefix": "6b2a88fc74f510cb0de027d90780386c3a2cf1674a106cc0dbf76912d8db8767",
         "size_in_bytes": 39936
       },
       {
         "_path": "Library/lib/engines-1_1/padlock.pdb",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\ci\\openssl_1597323868716\\_h_env",
-        "sha256": "ad241652e61ca361648b20a7bdc8d9dfcdf403be31d3208b2cbe4c630b100d83",
-        "sha256_in_prefix": "ad241652e61ca361648b20a7bdc8d9dfcdf403be31d3208b2cbe4c630b100d83",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "e9082d017b2501fc5e264b97af89b2d1a40dc5d02c2ed98f0e98d9834c75a8af",
+        "sha256_in_prefix": "e9082d017b2501fc5e264b97af89b2d1a40dc5d02c2ed98f0e98d9834c75a8af",
         "size_in_bytes": 339968
       },
       {
         "_path": "Library/lib/libcrypto.lib",
         "path_type": "hardlink",
-        "sha256": "4fd920cc8fc413775865f504e89a087e8c64d1c2196cdb91df863525b00d0889",
-        "sha256_in_prefix": "4fd920cc8fc413775865f504e89a087e8c64d1c2196cdb91df863525b00d0889",
+        "sha256": "61b958e1b5a5b05dd491b1e428b8a2098eb4bec766546fc9b2cfdb794d5747a2",
+        "sha256_in_prefix": "61b958e1b5a5b05dd491b1e428b8a2098eb4bec766546fc9b2cfdb794d5747a2",
         "size_in_bytes": 1010424
       },
       {
         "_path": "Library/lib/libssl.lib",
         "path_type": "hardlink",
-        "sha256": "2aba477df89f3af0885b271e35c6b8885bee0d80246b8e44aaef68f7fe3f1a07",
-        "sha256_in_prefix": "2aba477df89f3af0885b271e35c6b8885bee0d80246b8e44aaef68f7fe3f1a07",
+        "sha256": "7acfe0115412ea598d59c65d33f9a4edc8c194739a97b2963acb7301d1e98999",
+        "sha256_in_prefix": "7acfe0115412ea598d59c65d33f9a4edc8c194739a97b2963acb7301d1e98999",
         "size_in_bytes": 121986
       },
       {
-        "_path": "Library/ssl/ct_log_list.cnf",
-        "path_type": "hardlink",
-        "sha256": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
-        "sha256_in_prefix": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
-        "size_in_bytes": 412
-      },
-      {
-        "_path": "Library/ssl/ct_log_list.cnf.dist",
-        "path_type": "hardlink",
-        "sha256": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
-        "sha256_in_prefix": "f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b",
-        "size_in_bytes": 412
-      },
-      {
-        "_path": "Library/ssl/misc/CA.pl",
+        "_path": "Library/misc/CA.pl",
         "file_mode": "text",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\ci\\openssl_1597323868716\\_h_env",
-        "sha256": "049cf7edcac42edc1b08d6f8f74c84d4c560f1345857c50f7324cdad84bad64d",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "9436bc86f71231066ce902b1490e825268e9ba0e0099d5cbddd9d09cb80508b2",
         "sha256_in_prefix": "5de2292c7e4b6a7283dc67739b36835bd394068e10740e243e494f0d914db7aa",
-        "size_in_bytes": 7851
+        "size_in_bytes": 7858
       },
       {
-        "_path": "Library/ssl/misc/tsget.pl",
+        "_path": "Library/misc/tsget.pl",
         "file_mode": "text",
         "path_type": "hardlink",
-        "prefix_placeholder": "C:\\ci\\openssl_1597323868716\\_h_env",
-        "sha256": "ffcd8e7c4889623c5804051df8b2cd47d05c0498ca87e9f6b04a154dd27aa6c1",
+        "prefix_placeholder": "D:\\bld\\openssl_split_1596005313510\\_h_env",
+        "sha256": "a9c6f0cac8e75a3dbb0117e51cc6a5c5133c8cff1dbc1a648ff550660136a5fa",
         "sha256_in_prefix": "dacf70bc826bc7b40120fe0d282ec571575f0383d5eac5f5f03488d9d87fc71a",
-        "size_in_bytes": 6817
+        "size_in_bytes": 6824
       },
       {
-        "_path": "Library/ssl/openssl.cnf",
+        "_path": "Library/openssl.cnf",
         "path_type": "hardlink",
         "sha256": "f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b",
         "sha256_in_prefix": "f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b",
         "size_in_bytes": 10909
       },
       {
-        "_path": "Library/ssl/openssl.cnf.dist",
+        "_path": "Library/openssl.cnf.dist",
         "path_type": "hardlink",
         "sha256": "f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b",
         "sha256_in_prefix": "f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b",
@@ -1055,11 +1054,11 @@
     "paths_version": 1
   },
   "requested_spec": "None",
-  "sha256": "3613780e414e060d47195141bbae042cbb0e75c84d4132f7ef77e5493ff09063",
-  "size": 5060792,
+  "sha256": "4ed5ef324a08b94b4ca20e61e6db7da18e8b95865754186ebd1c63d3035153a2",
+  "size": 6021915,
   "subdir": "win-64",
-  "timestamp": 1597325119585,
+  "timestamp": 1596006834605,
   "track_features": "",
-  "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-1.1.1g-he774522_1.conda",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/openssl-1.1.1g-he774522_1.tar.bz2",
   "version": "1.1.1g"
 }

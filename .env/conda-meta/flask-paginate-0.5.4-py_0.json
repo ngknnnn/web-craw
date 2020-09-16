@@ -1,0 +1,100 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "flask",
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\Admin\\.conda\\pkgs\\flask-paginate-0.5.4-py_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/INSTALLER",
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/LICENSE",
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/METADATA",
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/RECORD",
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/WHEEL",
+    "Lib/site-packages/flask_paginate-0.5.4.dist-info/top_level.txt",
+    "Lib/site-packages/flask_paginate/__init__.py",
+    "Lib/site-packages/flask_paginate/__pycache__/__init__.cpython-37.pyc"
+  ],
+  "fn": "flask-paginate-0.5.4-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Admin\\.conda\\pkgs\\flask-paginate-0.5.4-py_0",
+    "type": 1
+  },
+  "md5": "d033c5ebc15a09be037e4af0a05e776f",
+  "name": "flask-paginate",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Admin\\.conda\\pkgs\\flask-paginate-0.5.4-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ba7e149bd579f5cf44cc8185c38165251523a144a7e409b6a95553e2c6c49dff",
+        "sha256_in_prefix": "ba7e149bd579f5cf44cc8185c38165251523a144a7e409b6a95553e2c6c49dff",
+        "size_in_bytes": 1478
+      },
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "237eb2d202ae34be6d7db139c7f85cfaf578d1c3f51279458329839b17a3f986",
+        "sha256_in_prefix": "237eb2d202ae34be6d7db139c7f85cfaf578d1c3f51279458329839b17a3f986",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "103620e6f183e6db0138d3a363219c243c3f7056ad199a13f6aa10d6cd70442a",
+        "sha256_in_prefix": "103620e6f183e6db0138d3a363219c243c3f7056ad199a13f6aa10d6cd70442a",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/flask_paginate-0.5.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2e70044714fcc168339c073f5c0192d52973f8aaa25c6ec32ad4878a99e9f55b",
+        "sha256_in_prefix": "2e70044714fcc168339c073f5c0192d52973f8aaa25c6ec32ad4878a99e9f55b",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/flask_paginate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ad0d89c9349d78dfae0eeecddb4a15f77164509d3f9e807405858efc08a74aef",
+        "sha256_in_prefix": "ad0d89c9349d78dfae0eeecddb4a15f77164509d3f9e807405858efc08a74aef",
+        "size_in_bytes": 18689
+      },
+      {
+        "_path": "Lib/site-packages/flask_paginate/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "flask-paginate",
+  "sha256": "91aaf73392aaa82b45b5b06b1454fc8f9eb9f5eedbf8570bfdeaae65bd24bc32",
+  "size": 9658,
+  "subdir": "noarch",
+  "timestamp": 1571893154126,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-paginate-0.5.4-py_0.tar.bz2",
+  "version": "0.5.4"
+}

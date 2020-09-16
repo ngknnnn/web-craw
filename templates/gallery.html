@@ -6,42 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../static/css/gallery.css">
-<style>
-li{
-    font-size:10px;
-}
-ul li{
-    list-style-type: none;
-}
-.pagination{
-	width: 100%;
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/gallery.css') }}">
 
-
-}
-.pagination div{
-	display: inline-block;
-	margin:0 10px;
-    text-align: center;
-
-}
-.pagination .page{
-	color:gray;
-}
-.pagination .prev,.pagination .next{
- color:#000;
- border:1px solid #000;
- font-size:15px;
- padding:7px 15px;
- cursor: pointer;
-}
-
-.pagination .prev.disabled,.pagination .next.disabled{
-	border-color: gray;
-	color:gray;
-	pointer-events: none;
-}
-</style>
 <script>
     function  loadImage() {
     const prev = document.querySelector(".prev");
@@ -98,68 +64,16 @@ ul li{
 }
   window.onload=function(){
     loadImage();
+    console.log("asdasd")
   	showItems();
   	check();
   }
-
-
-
-
-//     document.addEventListener("DOMContentLoaded", function() {
-//   var lazyloadImages;
-//
-//   if ("IntersectionObserver" in window) {
-//     lazyloadImages = document.querySelectorAll("#img-div");
-//     var imageObserver = new IntersectionObserver(function(entries, observer) {
-//       entries.forEach(function(entry) {
-//         if (entry.isIntersecting) {
-//           var image = entry.target;
-//           image.src = image.dataset.src;
-//           image.classList.remove("img-div");
-//           imageObserver.unobserve(image);
-//         }
-//       });
-//     });
-//
-//     lazyloadImages.forEach(function(image) {
-//       imageObserver.observe(image);
-//     });
-//   } else {
-//     var lazyloadThrottleTimeout;
-//     lazyloadImages = document.querySelectorAll("#img-div");
-//
-//     function lazyload () {
-//       if(lazyloadThrottleTimeout) {
-//         clearTimeout(lazyloadThrottleTimeout);
-//       }
-//
-//       lazyloadThrottleTimeout = setTimeout(function() {
-//         var scrollTop = window.pageYOffset;
-//         lazyloadImages.forEach(function(img) {
-//             if(img.offsetTop < (window.innerHeight + scrollTop)) {
-//               img.src = img.dataset.src;
-//               img.classList.remove('lazy');
-//             }
-//         });
-//         if(lazyloadImages.length == 0) {
-//           document.removeEventListener("scroll", lazyload);
-//           window.removeEventListener("resize", lazyload);
-//           window.removeEventListener("orientationChange", lazyload);
-//         }
-//       }, 20);
-//     }
-//
-//     document.addEventListener("scroll", lazyload);
-//     window.addEventListener("resize", lazyload);
-//     window.addEventListener("orientationChange", lazyload);
-//   }
-// })
-
 </script>
 </head>
 
 <body onload="loadImage()">
 <div class="container">
+
 
     <div class="row">
 
@@ -167,15 +81,26 @@ ul li{
             <h1 class="page-header">X-ray Image Gallery</h1>
         </div>
         <div class="Gallery">
+<!--            {% for page_num in image_names.iter_pages(left_edge=2, right_edge=2,left_current=1,right_current=2) %}-->
+
         {% for image_name in image_names %}
         <div id="img-div" class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <img id="{{image_name}} " style="height: 215px; width: 264px; margin-bottom: 3px;" class="img-responsive"  src=" {{url_for('send_image', filename=image_name)}}" onClick="showImageInfo(image_name)">
+            <img id="{{image_name}} " style="height: 215px; width: 264px; margin-bottom: 3px;" class="img-responsive"  src=" {{url_for('send_image', filename=image_name)}}" onClick="showImage(this)">
         </div>
         {% endfor %}
+<!--            {% endfor %}-->
         </div>
 
 
         <div id="myModal" class="modal" >
+         <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption">
+
+            <ul>
+                <li>{{data.0}}</li>
+            </ul>
+            </div>
 
 
         </div>
@@ -189,11 +114,11 @@ ul li{
 
 </div>
 </div>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous">
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"-->
+<!--        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"-->
+<!--        crossorigin="anonymous">-->
 
-</script>
+
 <script type="text/javascript">
             var modal = document.getElementById("myModal");
 

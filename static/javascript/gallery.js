@@ -53,6 +53,7 @@ function  loadImage() {
 }
   window.onload=function(){
     loadImage();
+    console.log("asdasd")
   	showItems();
   	check();
   }
